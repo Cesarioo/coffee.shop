@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_image {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 2rem;
+    border-radius: 50%;
+}
+
+.logo_image img {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,58 @@
+.brands {
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    overflow: hidden;
+    position: relative;
+    z-index: 500;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+
+
+
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.brands_logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    height: 5rem;
+    width: 50%;
+}
+
+.brands::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(45deg) translateX(0);
+    transition: 0.5s;
+}
+
+.brands:hover::before {
+    transform: skewX(45deg) translateX(200%);
+}
+
+.brands_subtext {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.brands_subtext p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+}

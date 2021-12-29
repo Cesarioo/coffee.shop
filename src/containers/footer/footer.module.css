@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(228, 193, 159, 1) 100%);
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_links p {
+    font-weight: 700;
+    margin: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--color-footer);
+}
+
+@media screen and (max-width: 800px) {
+    .footer_links p {
+        display: none;
+    }
+
+    .footer_logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

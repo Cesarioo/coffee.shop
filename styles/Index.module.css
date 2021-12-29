@@ -1,0 +1,92 @@
+.gradient_navbar {
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(228, 193, 159, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(228, 193, 159, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(228, 193, 159, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E4C19F', endColorstr='#FFFFFF', GradientType=1);
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(228, 193, 159, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(228, 193, 159, 1) 100%);
+}
+
+.gradient_footer {
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(228, 193, 159, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(228, 193, 159, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(228, 193, 159, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E4C19F', endColorstr='#FFFFFF', GradientType=1);
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(228, 193, 159, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(228, 193, 159, 1) 100%);
+}
+
+
+
+.slide_in_top {
+    -webkit-animation: slide_in_top 0.5s ease-out both;
+    animation: slide-in-top 0.5s ease-out both;
+}
+
+@-webkit-keyframes slide_in_top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.section_padding {
+    padding: 4rem 6rem;
+}
+
+.section_margin {
+    margin: 4rem 6rem;
+}
+
+@media screen and (max-width: 900px) {
+    .section_padding {
+        padding: 2rem 4rem;
+    }
+
+    .sectionmargin {
+        margin: 4rem;
+    }
+}

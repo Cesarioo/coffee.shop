@@ -1,0 +1,5 @@
+export { default as CTA } from './CTA/Cta'
+export { default as Footer } from './footer/Footer'
+export { default as Header } from './header/Header'
+export { default as Social } from './social/Social.js'
+export { default as Trusted } from './trusted/Trusted'
