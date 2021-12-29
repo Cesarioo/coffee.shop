@@ -12,7 +12,7 @@ const Trusted = () => {
                 <div className={style.trusted_text} >
                     <h2> Theses Brands trust us choosed to trust us.</h2>
                     <h3>  Why dont you ?</h3>
-                    <p> Theses are worldwide brands trusted by a lot of people. <br></br> They put they descisions in our bare hands. <br></br>
+                    <p> Theses are worldwide brand trusted by a lot of people. <br></br> They put they descisions in our bare hands. <br></br>
                         You should trust us.</p>
                 </div >
                 <div className={style.trusted_brands}>
